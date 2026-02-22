@@ -1,0 +1,12 @@
+{
+    "name": "dusk-api-py",
+    "language": "python",
+    "type": "library",
+    "tasks": {
+        "build": "python -m compileall src",
+        "test": "python -m unittest discover -s src -p 'test_*.py'",
+        "add": "python -m pip install -e /dusk-api-py",
+        "install": "python -m pip install -e .",
+        "uninstall": "python -m pip uninstall -y dusk-api-py"
+    }
+}

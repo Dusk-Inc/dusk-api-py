@@ -1,0 +1,8 @@
+DEFAULT_SECRET_PATH_ENV_VAR = "DUSK_SECRETS_FILE"
+DEFAULT_SECRET_PATH = "/var/run/secrets/dusk/secrets.env"
+DEFAULT_WATCH_DEBOUNCE_MS = 200
+
+RUNTIME_PLUGIN_SECRETS = "runtime:secrets"
+RUNTIME_DEPENDENCY_SECRETS_MANAGER = "runtime.secrets.manager"
+RUNTIME_DEPENDENCY_SECRETS_SNAPSHOT = "runtime.secrets.snapshot"
+RUNTIME_DEPENDENCY_SECRETS_ENV = "runtime.secrets.env"
