@@ -2,7 +2,7 @@ import unittest
 
 from fastapi.testclient import TestClient
 
-from routes.health import HealthRouter
+from dusk_api.routes.health import HealthRouter
 from fastapi import FastAPI
 
 

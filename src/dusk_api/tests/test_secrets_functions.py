@@ -1,6 +1,6 @@
 import unittest
 
-from functions.secrets import (
+from dusk_api.functions.secrets import (
     build_rotation,
     merge_with_process_env,
     parse_secret_line,

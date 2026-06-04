@@ -1,4 +1,4 @@
-from contracts import WellKnownRouterConfig, well_known_routes
+from dusk_api.contracts import WellKnownRouterConfig, well_known_routes
 
 
 def make_openid_configuration(config: WellKnownRouterConfig) -> dict[str, object]:

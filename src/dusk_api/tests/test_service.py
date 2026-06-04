@@ -1,7 +1,7 @@
 import unittest
 
-from contracts import ServiceDecoratorConfig, ServiceDecoratorRule
-from modules.service import SERVICE_DECORATOR_PHASE, ServiceDecorator, ServiceDecoratorTransformError
+from dusk_api.contracts import ServiceDecoratorConfig, ServiceDecoratorRule
+from dusk_api.modules.service import SERVICE_DECORATOR_PHASE, ServiceDecorator, ServiceDecoratorTransformError
 
 
 class _Service:

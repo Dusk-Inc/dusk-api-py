@@ -1,0 +1,16 @@
+[project]
+name = "dusk-api-py"
+version = "0.1.1"
+description = "Python base server for Dusk services: a FastAPI app with health, metrics, tracing, audit, and secrets defaults."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "prometheus-client>=0.20,<1",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

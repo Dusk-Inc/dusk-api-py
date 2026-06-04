@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-from contracts import SecretRotation
+from dusk_api.contracts import SecretRotation
 
 
 def parse_secret_line(line: str) -> tuple[str, str] | None:

@@ -2,8 +2,8 @@ import inspect
 from functools import wraps
 from typing import Any
 
-from contracts import ServiceDecoratorConfig, ServiceDecoratorRule, ServiceMapperContext
-from tokens import SERVICE_DECORATOR_PHASE, SERVICE_DECORATOR_SAFE_ERROR_MESSAGE, SERVICE_DECORATOR_TRANSFORM_ERROR_CODE
+from dusk_api.contracts import ServiceDecoratorConfig, ServiceDecoratorRule, ServiceMapperContext
+from dusk_api.tokens import SERVICE_DECORATOR_PHASE, SERVICE_DECORATOR_SAFE_ERROR_MESSAGE, SERVICE_DECORATOR_TRANSFORM_ERROR_CODE
 
 
 class ServiceDecoratorTransformError(ValueError):

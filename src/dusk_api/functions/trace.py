@@ -2,8 +2,8 @@ from uuid import uuid4
 
 from fastapi import Request
 
-from contracts import RequestContext
-from functions.context import storage
+from dusk_api.contracts import RequestContext
+from dusk_api.functions.context import storage
 
 
 async def trace_middleware(request: Request, call_next):

@@ -1,6 +1,6 @@
 import unittest
 
-from modules.runtime_manager import RuntimeManager
+from dusk_api.modules.runtime_manager import RuntimeManager
 
 
 class _FakePlugin:

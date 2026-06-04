@@ -1,8 +1,8 @@
 from fastapi import APIRouter
 from fastapi.responses import JSONResponse
 
-from contracts import HealthRouterConfig
-from tokens import health_routes
+from dusk_api.contracts import HealthRouterConfig
+from dusk_api.tokens import health_routes
 
 
 class HealthRouter:

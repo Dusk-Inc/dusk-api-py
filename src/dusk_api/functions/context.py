@@ -1,6 +1,6 @@
 from contextvars import ContextVar
 
-from contracts import RequestContext
+from dusk_api.contracts import RequestContext
 
 storage: ContextVar[RequestContext | None] = ContextVar("request_context", default=None)
 

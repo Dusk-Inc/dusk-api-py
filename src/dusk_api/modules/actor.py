@@ -1,8 +1,8 @@
 from fastapi import Request, Response
 
-from contracts import ActorReader, ActorSource, MissingActorHandler
-from functions import make_missing_actor_payload, read_actor_field, send_missing_actor
-from tokens import (
+from dusk_api.contracts import ActorReader, ActorSource, MissingActorHandler
+from dusk_api.functions import make_missing_actor_payload, read_actor_field, send_missing_actor
+from dusk_api.tokens import (
     ACTOR_DEFAULT_MISSING_CODE,
     ACTOR_DEFAULT_MISSING_MESSAGE,
     ACTOR_DEFAULT_MISSING_STATUS_CODE,

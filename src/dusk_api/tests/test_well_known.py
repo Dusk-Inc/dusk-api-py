@@ -3,8 +3,8 @@ import unittest
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
 
-from contracts import DiscoveryModel, WellKnownRouterConfig
-from modules.well_known import WellKnownRouter
+from dusk_api.contracts import DiscoveryModel, WellKnownRouterConfig
+from dusk_api.modules.well_known import WellKnownRouter
 
 
 class TestWellKnown(unittest.TestCase):

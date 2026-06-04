@@ -1,6 +1,6 @@
 import inspect
 
-from contracts import RuntimePlugin, RuntimePluginContext
+from dusk_api.contracts import RuntimePlugin, RuntimePluginContext
 
 
 class RuntimeManager:

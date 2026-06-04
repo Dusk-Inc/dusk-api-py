@@ -2,14 +2,14 @@ import logging
 
 from fastapi import FastAPI
 
-from contracts import AppManagerConfig, HealthRouterConfig, RuntimePlugin, SecretManagerOptions
-from functions import get_correlation_id, trace_middleware
-from modules.audit import audit_middleware
-from modules.runtime_manager import RuntimeManager
-from modules.secrets_plugin import SecretsPlugin
-from routes.health import HealthRouter
-from routes.metrics import MetricsRouter
-from tokens import (
+from dusk_api.contracts import AppManagerConfig, HealthRouterConfig, RuntimePlugin, SecretManagerOptions
+from dusk_api.functions import get_correlation_id, trace_middleware
+from dusk_api.modules.audit import audit_middleware
+from dusk_api.modules.runtime_manager import RuntimeManager
+from dusk_api.modules.secrets_plugin import SecretsPlugin
+from dusk_api.routes.health import HealthRouter
+from dusk_api.routes.metrics import MetricsRouter
+from dusk_api.tokens import (
     RUNTIME_DEPENDENCY_SECRETS_ENV,
     RUNTIME_DEPENDENCY_SECRETS_MANAGER,
     RUNTIME_DEPENDENCY_SECRETS_SNAPSHOT,

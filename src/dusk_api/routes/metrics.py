@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Response
 from prometheus_client import CONTENT_TYPE_LATEST, REGISTRY, generate_latest
 
-from contracts import MetricsRouterConfig
-from tokens import metrics_routes
+from dusk_api.contracts import MetricsRouterConfig
+from dusk_api.tokens import metrics_routes
 
 
 class MetricsRouter:

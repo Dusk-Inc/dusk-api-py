@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
-from contracts import WellKnownRouterConfig, well_known_routes
-from functions import make_openid_configuration
+from dusk_api.contracts import WellKnownRouterConfig, well_known_routes
+from dusk_api.functions import make_openid_configuration
 
 
 class WellKnownRouter:

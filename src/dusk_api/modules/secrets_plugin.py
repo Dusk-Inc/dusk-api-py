@@ -1,6 +1,6 @@
-from contracts import RuntimePluginContext, SecretManagerOptions
-from modules.secrets import SecretManager
-from tokens import (
+from dusk_api.contracts import RuntimePluginContext, SecretManagerOptions
+from dusk_api.modules.secrets import SecretManager
+from dusk_api.tokens import (
     RUNTIME_DEPENDENCY_SECRETS_ENV,
     RUNTIME_DEPENDENCY_SECRETS_MANAGER,
     RUNTIME_DEPENDENCY_SECRETS_SNAPSHOT,

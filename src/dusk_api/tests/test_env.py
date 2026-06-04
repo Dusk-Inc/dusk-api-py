@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from functions.env import parse_env
+from dusk_api.functions.env import parse_env
 
 
 class TestEnv(unittest.TestCase):

@@ -2,8 +2,8 @@ import os
 from pathlib import Path
 import time
 
-from contracts import SecretManagerOptions, SecretRotation, SecretSnapshot
-from functions.secrets import (
+from dusk_api.contracts import SecretManagerOptions, SecretRotation, SecretSnapshot
+from dusk_api.functions.secrets import (
     are_secret_maps_equal,
     build_rotation,
     is_missing_file_error,
@@ -12,7 +12,7 @@ from functions.secrets import (
     parse_secrets_file,
     resolve_secret_path,
 )
-from tokens import DEFAULT_SECRET_PATH, DEFAULT_SECRET_PATH_ENV_VAR, DEFAULT_WATCH_DEBOUNCE_MS
+from dusk_api.tokens import DEFAULT_SECRET_PATH, DEFAULT_SECRET_PATH_ENV_VAR, DEFAULT_WATCH_DEBOUNCE_MS
 
 SecretRotationListener = callable
 

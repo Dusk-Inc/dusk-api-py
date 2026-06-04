@@ -1,6 +1,6 @@
 from fastapi import Request, Response
 
-from contracts import ActorMiddlewareErrorResponse, ActorSource, RequestData
+from dusk_api.contracts import ActorMiddlewareErrorResponse, ActorSource, RequestData
 
 
 def get_header_value(value: str | list[str] | None) -> str | None:
