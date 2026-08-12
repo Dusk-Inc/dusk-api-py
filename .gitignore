@@ -52,6 +52,8 @@ htmlcov/
 *.key
 *.crt
 secrets/
+.playwright-mcp
+.tmp
 
 # Editor & OS
 .idea/
